@@ -1,0 +1,52 @@
+
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 30%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.room-item {
+  padding: 8px;
+  margin: 5px 0;
+  cursor: pointer;
+  border-radius: 4px;
+  background: #e2e8f0;
+}
+
+.room-item:hover {
+  background: #cbd5e1;
+}
+
+.booking-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+
+button {
+  padding: 6px 12px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
